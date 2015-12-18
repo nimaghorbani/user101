@@ -220,28 +220,16 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {110626080,103649648,0,tonumber(our_id)},--Sudo users
+    sudo_users = {94704012,138342554},--Sudo users
     disabled_channels = {},
-    realm = {},--Realms Id
+    realm = {15903027},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v1
+    about_text = [[W_SaTaN_W V2.0
 An advance Administration bot based on yagop/telegram-bot 
-
-https://github.com/SEEDTEAM/TeleSeed
-
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@seyedan25 [Manager]
-
+@mehrparvar88
 Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
+@WilSoN_DeVeLoPeR
 ]],
     help_text = [[
 Commands list :
@@ -287,8 +275,8 @@ return group id or user id
 
 !help
 
-!lock [member|name|bots]
-Locks [member|name|bots] 
+!lock [member|name|bots|arabic]
+Locks [member|name|bots|arabic] 
 
 !unlock [member|name|photo|bots]
 Unlocks [member|name|photo|bots]
@@ -339,6 +327,8 @@ will return group logs
 !banlist
 will return group ban list
 
+!satan
+about bot.
 **U can use both "/" and "!" 
 
 

@@ -220,16 +220,20 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {94704012,138342554},--Sudo users
+    sudo_users = {94704012},--Sudo users
     disabled_channels = {},
-    realm = {15903027},--Realms Id
+    realm = {53167206},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[W_SaTaN_W V2.0
-An advance Administration bot based on yagop/telegram-bot 
+    about_text = [[W_SaTaN_W V3.0
+
 Admins
-@mehrparvar88
-Special thanks to
 @WilSoN_DeVeLoPeR
+
+Special thanks to
+@Dawsh_Alfred
+
+our channel
+@W_SaTaN_w_chnnl
 ]],
     help_text = [[
 Commands list :
@@ -278,8 +282,8 @@ return group id or user id
 !lock [member|name|bots|arabic]
 Locks [member|name|bots|arabic] 
 
-!unlock [member|name|photo|bots]
-Unlocks [member|name|photo|bots]
+!unlock [member|name|photo|bots|arabic]
+Unlocks [member|name|photo|bots|arabic]
 
 !set rules <text>
 Set <text> as rules

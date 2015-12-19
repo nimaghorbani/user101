@@ -220,20 +220,20 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {94704012},--Sudo users
+    sudo_users = {159678346,132921618},--Sudo users
     disabled_channels = {},
-    realm = {53167206},--Realms Id
+    realm = {63904693},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[W_SaTaN_W V3.0
+    about_text = [[HaWkerGhBot V1.0
 
 Admins
-@WilSoN_DeVeLoPeR
+@HaWkerGHBot
 
 Special thanks to
-@Dawsh_Alfred
+@HaWkerGHBot
 
 our channel
-@W_SaTaN_w_chnnl
+@talbackBot
 ]],
     help_text = [[
 Commands list :
@@ -342,6 +342,8 @@ about bot.
 *Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only owner can use res,setowner,promote,demote and log commands
+
+Baraye Etelaat Bishtar be @HaWkerGh Pm Bedid
 
 ]]
 

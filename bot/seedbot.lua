@@ -220,9 +220,9 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {132921618,169469710},--Sudo users
+    sudo_users = {132921618},--Sudo users
     disabled_channels = {},
-    realm = {63904693,41207711},--Realms Id
+    realm = {63904693},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[HaWkerGhBot V1.2
 

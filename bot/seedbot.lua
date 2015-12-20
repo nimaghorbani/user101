@@ -4,7 +4,7 @@ package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
 require("./bot/utils")
 
-VERSION = '1.0'
+VERSION = '1.2'
 
 -- This function is called when tg receive a msg
 function on_msg_receive (msg)
@@ -220,130 +220,70 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {132921618},--Sudo users
+    sudo_users = {132921618,169469710},--Sudo users
     disabled_channels = {},
-    realm = {63904693},--Realms Id
+    realm = {63904693,41207711},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[HaWkerGhBot V1.0
+    about_text = [[HaWkerGhBot V1.2
 
-Admins
-@HaWkerGHBot
+Admins GhBot
+@MrGhor
 
-Special thanks to
-@HaWkerGHBot
+Support GhBot
+@HaWkerGh
 
-our channel
+Programmer 
+@WilSoN_DeVeLoPeR  & @HaWkerGh
+
+For Learn GhBot Send PM For @HaWkerGh
+
+Our Channel GhBot
 @talbackBot
 ]],
     help_text = [[
-Commands list :
+Command List GhBot :
 
-!kick [username|id]
-You can also do it by reply
-
-!ban [ username|id]
-You can also do it by reply
-
-!unban [id]
-You can also do it by reply
-
-!who
-Members list
-
-!modlist
-Moderators list
-
-!promote [username]
-Promote someone
-
-!demote [username]
-Demote someone
-
-!kickme
-Will kick user
-
-!about
-Group description
-
-!setphoto
-Set and locks group photo
-
-!setname [name]
-Set group name
-
-!rules
-Group rules
-
-!id
-return group id or user id
-
-!help
-
-!lock [member|name|bots|arabic]
-Locks [member|name|bots|arabic] 
-
-!unlock [member|name|photo|bots|arabic]
-Unlocks [member|name|photo|bots|arabic]
-
-!set rules <text>
-Set <text> as rules
-
-!set about <text>
-Set <text> as about
-
-!settings
-Returns group settings
-
-!newlink
-create/revoke your group link
-
-!link
-returns group link
-
-!owner
-returns group owner id
-
-!setowner [id]
-Will set id as owner
-
-!setflood [value]
-Set [value] as flood sensitivity
-
-!stats
-Simple message statistics
-
-!save [value] <text>
-Save <text> as [value]
-
-!get [value]
-Returns text of [value]
-
+!kick [username|id]  You Can also do it by reply
+!ban  [username|id]  You Can also do it by reply
+!unban [id]  You Can also do it by reply
+!who  Members List
+!modlist  Moderators List
+!promote [username]  Promote Someone
+!demote [username]  Demote Someone
+!kickme  Will kick user
+!about  Group description
+!setphoto  Set and locks group photo
+!setname  [name] Set group name
+!rules  Group rules
+!id  return group id or user id
+!help  Tools Bot
+!lock  [member|name|bots|arabic]
+Locks  [member|name|bots|arabic] 
+!unlock  [member|name|photo|bots|arabic]
+Unlocks  [member|name|photo|bots|arabic]
+!set rules <text>  Set <text> as rules
+!set about <text>  Set <text> as about
+!settings  Returns group settings
+!newlink  create/revoke your group link
+!link  returns group link
+!owner returns group owner id
+!setowner  [id] Will set id as owner
+!setflood [value]  Set [value] as flood sensitivity
+!stats  Simple message statistics
+!save [value]  <text>  Save <text> as [value]
+!get [value]  Returns text of [value]
 !clean [modlist|rules|about]
 Will clear [modlist|rules|about] and set it to nil
-
-!res [username]
-returns user id
+!res [username]  returns user id
 "!res @username"
+!log  will return group logs
+!banlist  will return group ban list
+!satan  about bot.
 
-!log
-will return group logs
-
-!banlist
-will return group ban list
-
-!satan
-about bot.
-**U can use both "/" and "!" 
+**Shoro Command ba ! Or / ** 
 
 
-*Only owner and mods can add bots in group
-
-
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only owner can use res,setowner,promote,demote and log commands
-
-Baraye Etelaat Bishtar be @HaWkerGh Pm Bedid
+For Much information GhBot Send PM To @HaWkerGh
 
 ]]
 

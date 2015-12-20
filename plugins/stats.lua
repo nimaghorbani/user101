@@ -120,7 +120,7 @@ local function run(msg, matches)
         return
       end
     end
-    if matches[2] == "satan" then -- Put everything you like :)
+    if matches[2] == "Ghbot" then -- Put everything you like :)
       if not is_admin(msg) then
         return "For admins only !"
       else
@@ -141,7 +141,7 @@ return {
     "^[!/]([Ss]tats)$",
     "^[!/]([Ss]tatslist)$",
     "^[!/]([Ss]tats) (group) (%d+)",
-    "^[!/]([Ss]tats) (satan)",-- Put everything you like :)
+    "^[!/]([Ss]tats) (Ghbot)",-- Put everything you like :)
 		"^[!/]([Ss]atan)"-- Put everything you like :)
     }, 
   run = run

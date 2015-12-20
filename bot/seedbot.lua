@@ -4,7 +4,7 @@ package.cpath = package.cpath .. ';.luarocks/lib/lua/5.2/?.so'
 
 require("./bot/utils")
 
-VERSION = '1.2'
+VERSION = '1.0'
 
 -- This function is called when tg receive a msg
 function on_msg_receive (msg)
@@ -222,9 +222,9 @@ function create_config( )
     },
     sudo_users = {132921618,169469710},--Sudo users
     disabled_channels = {},
-    realm = {41207711},--Realms Id
+    realm = {63974337},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[HaWkerGhBot V1.2
+    about_text = [[HaWkerGhBot V1.4
 
 Admins GhBot
 @MrGhor

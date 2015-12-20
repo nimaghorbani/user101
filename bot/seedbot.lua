@@ -278,7 +278,7 @@ Will clear [modlist|rules|about] and set it to nil
 "!res @username"
 !log  will return group logs
 !banlist  will return group ban list
-!satan  about bot.
+!Ghbot  about bot.
 
 **Shoro Command ba ! Or / ** 
 

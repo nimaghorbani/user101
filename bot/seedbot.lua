@@ -241,74 +241,87 @@ Our Channel GhBot
 @talbackBot
 ]],
     help_text = [[
-Command List GhBot :
+لیست دستورات :
 
-!kick [username|id]  
-You Can also do it by reply
-!ban  [username|id]  
-You Can also do it by reply
-!unban [id]  
-You Can also do it by reply
-!who 
-Members List
-!modlist  
-Moderators List
-!promote [username] 
-Promote Someone
-!demote [username] 
-Demote Someone
-!kickme  
-Will kick user
-!about  
-Group description
-!setphoto  
-Set and locks group photo
-!setname [name] 
-Set group name
-!rules  
-Group rules
-!id  
-return group id or user id
-!help  
-Tools Bot
-!lock  [member|name|bots|arabic]
-Locks  [member|name|bots|arabic] 
-!unlock  [member|name|photo|bots|arabic]
-Unlocks  [member|name|photo|bots|arabic]
-!set rules <text>  
-Set <text> as rules
-!set about <text>  
-Set <text> as about
-!settings  
-Returns group settings
-!newlink  
-create/revoke your group link
-!link  
-returns group link
-!owner 
-returns group owner id
-!setowner [id] 
-Will set id as owner
-!setflood [value]  
-Set [value] as flood sensitivity
-!stats  
-Simple message statistics
-!save [value]  <text>  
-Save <text> as [value]
-!get [value]  
-Returns text of [value]
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
-!res [username] returns user id
+!kick [یوزرنیم|آیدی]
+اخراج شخص از گروه 
+!ban [یوزرنیم|آیدی]
+اخراج و بسته شدن ورود به گروه
+!unban [آیدی]
+باز شدن مجوز ورود به گروه 
+!who
+لیست افراد گروه
+!modlist
+لیست مدیران
+!promote [یوزرنیم]
+افزایش سطح مدیریت
+!demote [یوزرنیم]
+کاهش سطح مدیریت
+!kickme
+اخراج من 
+!about
+درباره گروه
+!setphoto
+تنظیم و قفل عکس گروه
+!setname [اسم]
+تنظیم و قفل اسم گروه
+!rules
+قوانین گروه
+!id
+نمایش آیدی یک فرد یا یک گروه
+!help
+کمک به کاربر
+!lock [member|name|bots]
+قفل کردن [ممبر|اسم|بات ها] 
+!unlock [member|name|photo|bots]
+باز کردن قفل [ممبر|اسم|عکس|بات ها]
+!set rules <متن>
+قراردادن <متن> به عنوان قوانین گروه
+!set about <متن>
+قراردادن <متن> به عنوان اطلاعات گروه
+!settings
+نمایش تنظیمات گروه
+!newlink
+ساخت لینک جدید برای گروه
+!link
+نمایش لینک گروه
+!owner
+نمایش صاحب گروه
+!setowner [آیدی]
+تظیم آیدی مالک چت
+!setflood [میزان]
+قراردادن [میزان] به عنوان حساسیت به اسپم
+!stats
+گزارش ساده
+
+!save [میزان] <متن>
+ذخیره  <متن> به عنوان [میزان]
+
+!get [میزان]
+نمایش متن از [میزان]
+
+!clean [لیست مُدیران|قوانین|درباره]
+پاک میشود [لیست مُدیران|قوانین|درباره] and set it to nil
+
+!res [یوزرنیم]
+نمایش آیدی فرد با استفاده از یوزرنیم
 "!res @username"
-!log  will 
-return group logs
-!banlist  
-will return group ban list
-!Ghbot 
-about bot.
 
-**Shoro Command ba ! Or / ** 
+!log
+نمایش لُگ های گروه
+
+!banlist
+نمایش لیست افراد بَن شده
+
+**شما میتوانید برای اجرای دستورات از علامتهای روبه رو استفاده کنید "/" and "!" 
+
+
+*فقط مُدیر و مالک میتوانند رُبات ب گروه اضافه کنند
+
+
+*فقط مدیر و مالک میتوانند افراد را اخراج کنند,بَن,آن بَن,تغییر لینک,مشاهده لینک,تنطیم عکس,تنظیم اسم,قفل,بازکردن,تنظیم قوانین,تظیم درباره و خط فرمان های تنطیمات
+
+*فقط مُختص مالک,تنظیم مالک,ارتقای شخص,باز پس گیری مقام و تمامی دستورات
 
 
 For Much information GhBot Send PM To @HaWkerGh

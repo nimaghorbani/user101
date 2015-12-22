@@ -448,20 +448,33 @@ end
  
 return {
   patterns = {
-    "^[!/](creategroup) (.*)$",
-    "^[!/](setabout) (%d+) (.*)$",
-    "^[!/](setrules) (%d+) (.*)$",
-    "^[!/](setname) (%d+) (.*)$",
-        "^[!/](lock) (%d+) (.*)$",
-    "^[!/](unlock) (%d+) (.*)$",
-    "^[!/](setting) (%d+)$",
-        "^[!/](wholist)$",
-        "^[!/](who)$",
-    "^[!/](addadmin) (.*)$", -- sudoers only
-    "^[!/](removeadmin) (.*)$", -- sudoers only
-    "^[!/](list) (.*)$",
-        "^[!/](log)$",
-        "^!!tgservice (.+)$",
+    "^[!/$&]([Cc]reategroup) (.*)$",
+    "^[!/$&]([Ss]etabout) (%d+) (.*)$",
+    "^[!/$&]([Ss]etrules) (%d+) (.*)$",
+    "^[!/$&]([Ss]etname) (%d+) (.*)$",
+    "^[!/$&]([Ll]ock) (%d+) (.*)$",
+    "^[!/$&]([Uu]nlock) (%d+) (.*)$",
+    "^[!/$&]([Ss]etting) (%d+)$",
+    "^[!/$&]([Ww]holist)$",
+    "^[!/$&]([Ww]ho)$",
+    "^[!/$&]([Aa]ddadmin) (.*)$", -- sudoers only
+    "^[!/$&]([Rr]emoveadmin) (.*)$", -- sudoers only
+    "^[!/$&]([Ll]ist) (.*)$",
+    "^[!/$&]([Ll]og)$",
+    "^!!tgservice (.+)$",
+     "^([Cc]reategroup) (.*)$",
+    "^([Ss]etabout) (%d+) (.*)$",
+    "^([Ss]etrules) (%d+) (.*)$",
+    "^([Ss]etname) (%d+) (.*)$",
+    "^([Ll]ock) (%d+) (.*)$",
+    "^([Uu]nlock) (%d+) (.*)$",
+    "^([Ss]etting) (%d+)$",
+    "^([Ww]holist)$",
+    "^([Ww]ho)$",
+    "^([Aa]ddadmin) (.*)$", -- sudoers only
+    "^([Rr]emoveadmin) (.*)$", -- sudoers only
+    "^([Ll]ist) (.*)$",
+    "^([Ll]og)$",
   },
   run = run
 }

@@ -224,7 +224,7 @@ function create_config( )
     disabled_channels = {},
     realm = {63974337},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[HaWkerGhBot V1.4
+    about_text = [[HaWkerGhBot V 2
 
 Admins GhBot
 @MrGhor

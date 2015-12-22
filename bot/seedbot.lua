@@ -16,6 +16,7 @@ function on_msg_receive (msg)
   print (receiver)
 
   -- vardump(msg)
+  --@Mr_Ghor
   msg = pre_process_service_msg(msg)
   if msg_valid(msg) then
     msg = pre_process_msg(msg)
@@ -218,7 +219,8 @@ function create_config( )
     "broadcast",
     "download_media",
     "invite",
-    "all"
+    "all",
+    "helprealm"
     },
     sudo_users = {132921618},--Sudo users
     disabled_channels = {},
@@ -308,13 +310,14 @@ Our Channel GhBot
 !Ghbot
 اطلاعات بات
 
-نوشتن ابتدای دستورات با / و ! تفاوتی ندارد
+موارد قابل استفاده: "!" , "/" , "&" , "$". 
 
 برای اطلاعا بیشتر به آی دی زیر پیم بفرستید :
 @HaWkerGh
 ]]
 
   }
+
   serialize_to_file(config, './data/config.lua')
   print('saved config into ./data/config.lua')
 end

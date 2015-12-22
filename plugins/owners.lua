@@ -1,6 +1,4 @@
-
-
-local function lock_group_namemod(msg, data, target)
+ocal function lock_group_namemod(msg, data, target)
   local group_name_set = data[tostring(target)]['settings']['set_name']
   local group_name_lock = data[tostring(target)]['settings']['lock_name']
   if group_name_lock == 'yes' then
@@ -306,12 +304,18 @@ local function run(msg, matches)
 end
 return {
   patterns = {
-    "^[!/]owners (%d+) ([^%s]+) (.*)$",
-    "^[!/]owners (%d+) ([^%s]+)$",
-    "^[!/](changeabout) (%d+) (.*)$",
-    "^[!/](changerules) (%d+) (.*)$",
-    "^[!/](changename) (%d+) (.*)$",
-		"^[!/](loggroup) (%d+)$"
+    "^[!/]([Oo]wners) (%d+) ([^%s]+) (.*)$",
+    "^[!/]([Oo]wners) (%d+) ([^%s]+)$",
+    "^[!/]([Cc]hangeabout) (%d+) (.*)$",
+    "^[!/]([Cc]hangerules) (%d+) (.*)$",
+    "^[!/]([Cc]hangename) (%d+) (.*)$",
+    "^[!/]([Ll]oggroup) (%d+)$",
+    "^([Oo]wners) (%d+) ([^%s]+) (.*)$",
+    "^([Oo]wners) (%d+) ([^%s]+)$",
+    "^([Cc]hangeabout) (%d+) (.*)$",
+    "^([Cc]hangerules) (%d+) (.*)$",
+    "^([Cc]hangename) (%d+) (.*)$",
+    "^([Ll]oggroup) (%d+)$"
   },
   run = run
 }

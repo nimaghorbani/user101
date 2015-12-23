@@ -224,7 +224,7 @@ function create_config( )
     },
     sudo_users = {132921618},--Sudo users
     disabled_channels = {},
-    realm = {86547160},--Realms Id
+    realm = {63974337},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[HaWkerGhBot V 2
 

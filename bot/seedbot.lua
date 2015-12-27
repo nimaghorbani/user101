@@ -222,14 +222,14 @@ function create_config( )
     "all",
     "helprealm"
     },
-    sudo_users = {132921618},--Sudo users
+    sudo_users = {132921618,107032464},--Sudo users
     disabled_channels = {},
-    realm = {63974337},--Realms Id
+    realm = {63412073},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[HaWkerGhBot V 2
 
-Admins GhBot
-@MrGhor
+Admins Bot
+107032464
 
 Support GhBot
 @HaWkerGh
@@ -237,10 +237,6 @@ Support GhBot
 Programmer 
 @WilSoN_DeVeLoPeR  & @HaWkerGh
 
-For Learn GhBot Send PM For @HaWkerGh
-
-Our Channel GhBot
-@talbackBot
 ]],
     help_text = [[
 لیست دستورات :
@@ -312,8 +308,6 @@ Our Channel GhBot
 
 موارد قابل استفاده: "!" , "/" , "&" , "$". 
 
-برای اطلاعا بیشتر به آی دی زیر پیم بفرستید :
-@HaWkerGh
 ]]
 
   }
